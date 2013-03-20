@@ -7,6 +7,7 @@ admin.autodiscover()
 urlpatterns = patterns('',
     url('^time/$',current_datetime),
     url(r'^time/plus/(\d{1,2})',hours_ahead),
+    url('^meta/$',display_meta),
     # Examples:
     # url(r'^$', 'mysite2.views.home', name='home'),
     # url(r'^mysite2/', include('mysite2.foo.urls')),
