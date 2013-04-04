@@ -9,6 +9,7 @@ urlpatterns = patterns('',
     url(r'^time/plus/(\d{1,2})',hours_ahead),
     url('^meta/$',display_meta),
     url('^search/$',search),
+    url('contact/$',contact),
     # Examples:
     # url(r'^$', 'mysite2.views.home', name='home'),
     # url(r'^mysite2/', include('mysite2.foo.urls')),
