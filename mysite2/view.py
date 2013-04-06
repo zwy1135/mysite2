@@ -2,7 +2,7 @@ from django.shortcuts import render_to_response,RequestContext
 from django.http import HttpResponse,Http404,HttpResponseRedirect
 from books.models import Book
 import datetime
-from django.core.mail import send_mail
+#from django.core.mail import send_mail
 
 
 def current_datetime(request):
